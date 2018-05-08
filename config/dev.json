@@ -1,0 +1,9 @@
+{
+    "ServerConfig": {
+        "port": "3003"
+    },
+    "DiscordConfig": {
+        "discord_token": "NDQzMzEwNzg2NjY0OTg4Njcy.DdLiKQ.abLZASpICNLJK7ZlHsbp9AszUDU",
+        "organisation_channel": "443313313523433472"
+    }
+}
