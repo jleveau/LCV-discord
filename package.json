@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bufferutil": "^3.0.5",
     "config": "^1.30.0",
     "discord.js": "^11.3.2",
-    "express": "^4.16.3",
-    "moment-timezone": "^0.5.16"
+    "express": "^4.16.3"
   },
   "devDependencies": {},
   "scripts": {

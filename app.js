@@ -5,7 +5,7 @@ const express = require("express")
 const client = new Discord.Client();
 const bodyParser = require('body-parser')
 const config = require("config")
-process.env.TZ = 'Europe/Paris' 
+process.env.TZ = 'Europe/Paris'
 
 
 client.login(config.DiscordConfig.discord_token).catch((err) => {
@@ -20,7 +20,7 @@ client.on('ready', () => {
 const app = express()
 app.use(bodyParser.urlencoded({
     extended: true
-  }));
+}));
 app.use(bodyParser.json())
 
 app.post('/discord/message', function (req, res) {
@@ -31,7 +31,8 @@ app.post('/discord/message', function (req, res) {
                 res.status(200).send({ status: 200 })
             })
             .catch((err) => {
-                res.status(500).send({status: 500, message: err.message})
+                console.log(err)
+                res.status(500).send({ status: 500, message: err.message })
             })
     } else {
         res.sendStatus(400)
@@ -40,6 +41,6 @@ app.post('/discord/message', function (req, res) {
 
 const port = config.ServerConfig.port
 app.listen(port, function () {
-  console.log('discord bot server running on port ' + port)
+    console.log('discord bot server running on port ' + port)
 })
 

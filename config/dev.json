@@ -3,7 +3,7 @@
         "port": "3003"
     },
     "DiscordConfig": {
-        "discord_token": "NDQzMzEwNzg2NjY0OTg4Njcy.DdLiKQ.abLZASpICNLJK7ZlHsbp9AszUDU",
+        "discord_token": "NDYzOTc4MzE2MTgxOTI5OTg1.Dh4WQw.UY5BuX8ewU81BxvRXJo08OyqYdY",
         "organisation_channel": "443313313523433472"
     },
     "event-url": "localhost:4200/event/"
