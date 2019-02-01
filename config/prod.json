@@ -3,6 +3,7 @@
         "port": "3003"
     },
     "DiscordConfig": {
-        "organisation_channel": "393065193854205954"
+        "organisation_channel": "393065193854205954",
+        "discord_token": "null",
     }
 }
